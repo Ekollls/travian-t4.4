@@ -1,0 +1,77 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+/* system messages */
+div#sysmsg {
+  width: 550px;
+  margin: auto;
+}
+div#sysmsg .termsAcceptButton {
+  float: left;
+  margin-top: 10px;
+}
+div#sysmsg button#cancel {
+  float: right;
+  margin-top: 10px;
+}
+
+div#punishmentMsgButtons {
+  margin: auto;
+}
+div#punishmentMsgButtons button.continueButton {
+  float: right;
+  margin-top: 10px;
+}
+div#punishmentMsgButtons button.contactSupportButton {
+  float: left;
+  margin-top: 10px;
+}
+
+div.peaceMessageIcon {
+  width: 107px;
+  height: 119px;
+  padding: 5px 5px 5px 5px;
+  float: right;
+  background-image: url('../../img_rtl/p/truce_star.png');
+}
+
+.truceImageAutumn,
+.truceImageNeutral,
+.truceImageSpring,
+.truceImageSummer,
+.truceImageWinter {
+  width: 550px;
+  height: 200px;
+  padding: 0 0 25px 0;
+  float: right;
+}
+
+.truceImageAutumn {
+  background-image: url('../../img_rtl/application/views/truce/truceAutumn.jpg');
+}
+
+.truceImageNeutral {
+  background-image: url('../../img_rtl/application/views/truce/truceNeutral.jpg');
+}
+
+.truceImageSpring {
+  background-image: url('../../img_rtl/application/views/truce/truceSpring.jpg');
+}
+
+.truceImageSummer {
+  background-image: url('../../img_rtl/application/views/truce/truceSummer.jpg');
+}
+
+.truceImageWinter {
+  background-image: url('../../img_rtl/application/views/truce/truceWinter.jpg');
+}

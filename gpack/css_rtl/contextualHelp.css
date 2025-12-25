@@ -1,0 +1,249 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+#contextualHelp {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 6000;
+  pointer-events: none;
+}
+#contextualHelp * {
+  box-sizing: border-box;
+}
+#contextualHelp .contextualHelp {
+  display: -ms-inline-grid;
+  display: inline-grid;
+  pointer-events: auto;
+  position: absolute;
+  z-index: 1;
+}
+#contextualHelp .contextualHelp.teasing {
+  position: fixed;
+}
+#contextualHelp .contextualHelp .arrowContainer {
+  width: 40px;
+  height: calc(100% - 54px);
+  margin-top: 27px;
+  position: relative;
+}
+#contextualHelp .contextualHelp .arrowContainer svg.pointingArrow {
+  width: 40px;
+  height: 40px;
+  fill: rgba(51, 51, 51, 0.9);
+  position: absolute;
+  z-index: 5;
+  margin-top: -20px;
+}
+#contextualHelp .contextualHelp .helpBody {
+  width: 350px;
+  min-height: 150px;
+  word-break: break-word;
+  display: inline-block;
+  padding: 30px 25px 80px;
+  background-color: rgba(51, 51, 51, 0.9);
+  color: #F2F2F2;
+  border-radius: 7px;
+  position: relative;
+  z-index: 2;
+  border: solid 2px #CAA46D;
+  border-top-color: #ffe1aa;
+  border-bottom-color: #907151;
+  box-shadow: 0 0 0 1px #1B1A1A, 0 0 0 1px #1B1A1A inset;
+}
+#contextualHelp .contextualHelp .helpBody:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 6px;
+  z-index: 3;
+  box-shadow: 0 -1px 0 0 #A3835A;
+}
+#contextualHelp .contextualHelp .helpBody:after {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  bottom: -2px;
+  right: -2px;
+  border-radius: 6px;
+  z-index: 3;
+  box-shadow: 0 -1px 0 0 #A3835A inset;
+}
+#contextualHelp .contextualHelp .helpBody .progress {
+  width: calc(100% - 2px);
+  height: 5px;
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  z-index: -1;
+  display: flex;
+}
+#contextualHelp .contextualHelp .helpBody .progress div {
+  background-color: #C9B59A;
+  flex: 1;
+  transition-duration: 250ms;
+}
+#contextualHelp .contextualHelp .helpBody .progress div:not(:last-of-type) {
+  margin-left: 1px;
+}
+#contextualHelp .contextualHelp .helpBody .progress div:first-of-type {
+  border-top-right-radius: 5px;
+}
+#contextualHelp .contextualHelp .helpBody .progress div:last-of-type {
+  border-top-left-radius: 5px;
+}
+#contextualHelp .contextualHelp .helpBody .progress div.active {
+  background-color: #F0E1CC;
+}
+#contextualHelp .contextualHelp .helpBody nav {
+  z-index: 4;
+  height: 35px;
+  position: absolute;
+  bottom: 25px;
+  width: calc(100% - 50px);
+}
+#contextualHelp .contextualHelp .helpBody nav svg {
+  width: 12px;
+  height: 17px;
+  margin-top: 7px;
+  transform: translateX(0);
+  transition-duration: 150ms;
+  transition-timing-function: ease-out;
+  cursor: pointer;
+  position: absolute;
+}
+#contextualHelp .contextualHelp .helpBody nav svg.chevronBack {
+  top: 0;
+  right: 0;
+}
+#contextualHelp .contextualHelp .helpBody nav svg.chevronForward {
+  top: 0;
+  left: 0;
+}
+.rtl #contextualHelp .contextualHelp .helpBody nav svg {
+  transform: scale(-1, 1);
+}
+#contextualHelp .contextualHelp .helpBody nav svg path {
+  fill: transparent;
+  stroke: #DAC9B1;
+  stroke-width: 4px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transition-duration: 150ms;
+}
+#contextualHelp .contextualHelp .helpBody nav svg:not(.disabled):hover path, #contextualHelp .contextualHelp .helpBody nav svg:not(.disabled):focus path {
+  stroke: #F0E1CC;
+}
+#contextualHelp .contextualHelp .helpBody nav svg:not(.disabled):active path {
+  stroke: #C9B59A;
+}
+#contextualHelp .contextualHelp .helpBody nav button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+}
+#contextualHelp .contextualHelp.above .arrowContainer, #contextualHelp .contextualHelp.below .arrowContainer {
+  width: calc(100% - 54px);
+  height: 40px;
+  margin-top: 0;
+  margin-right: 27px;
+}
+#contextualHelp .contextualHelp.above {
+  -ms-grid-columns: auto;
+  grid-template-columns: auto;
+}
+#contextualHelp .contextualHelp.above .arrowContainer {
+  order: 2;
+  -ms-grid-row: 2;
+  grid-row-start: 2;
+  margin-top: -2px;
+}
+#contextualHelp .contextualHelp.above .arrowContainer svg.pointingArrow {
+  transform: rotate(-90deg);
+  margin-right: -22px;
+  margin-top: 0;
+  top: -2px;
+  stroke: #907151;
+}
+#contextualHelp .contextualHelp.below {
+  -ms-grid-columns: auto;
+  grid-template-columns: auto;
+}
+#contextualHelp .contextualHelp.below .helpBody {
+  -ms-grid-row: 2;
+  grid-row-start: 2;
+}
+#contextualHelp .contextualHelp.below .arrowContainer {
+  margin-bottom: -2px;
+}
+#contextualHelp .contextualHelp.below .arrowContainer svg.pointingArrow {
+  transform: rotate(90deg);
+  margin-right: -20px;
+  top: 2px;
+  margin-top: 0;
+  stroke: #ffe1aa;
+}
+#contextualHelp .contextualHelp.before {
+  -ms-grid-columns: auto 40px;
+  grid-template-columns: auto 40px;
+}
+#contextualHelp .contextualHelp.before .helpBody {
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+}
+#contextualHelp .contextualHelp.before .arrowContainer {
+  order: 2;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  margin-right: -2px;
+}
+#contextualHelp .contextualHelp.before .arrowContainer svg.pointingArrow {
+  transform: scale(-1, -1);
+  left: 2px;
+  stroke: #CAA46D;
+}
+.rtl #contextualHelp .contextualHelp.before .arrowContainer svg.pointingArrow {
+  transform: none;
+}
+#contextualHelp .contextualHelp.after {
+  -ms-grid-columns: 40px auto;
+  grid-template-columns: 40px auto;
+}
+#contextualHelp .contextualHelp.after .helpBody {
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+}
+#contextualHelp .contextualHelp.after .arrowContainer {
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  margin-right: 2px;
+}
+#contextualHelp .contextualHelp.after .arrowContainer svg.pointingArrow {
+  stroke: #CAA46D;
+}
+.rtl #contextualHelp .contextualHelp.after .arrowContainer svg.pointingArrow {
+  transform: scale(-1, -1);
+}

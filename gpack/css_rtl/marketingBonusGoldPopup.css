@@ -1,0 +1,271 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+.marketingBonusGoldPopup {
+  color: #5e463a;
+}
+.marketingBonusGoldPopup .dialog-container {
+  padding: 0;
+}
+.marketingBonusGoldPopup .dialog-container > div {
+  background: none;
+}
+.marketingBonusGoldPopup .dialog-container .dialog-contents {
+  background-color: #d2bda1;
+  border-radius: 10px;
+  padding: 0 17px 17px;
+  width: 573px;
+}
+.marketingBonusGoldPopup .dialog-container .dialog-contents:before, .marketingBonusGoldPopup .dialog-container .dialog-contents:after {
+  content: "";
+}
+.marketingBonusGoldPopup .dialog-container .dialog-contents:before {
+  position: absolute;
+  top: 19px;
+  left: 0;
+  bottom: auto;
+  right: 0;
+  height: 48px;
+  background-image: url('../img_rtl/videoFeature/header.jpg');
+  background-repeat: repeat-x;
+}
+.marketingBonusGoldPopup .dialog-container .dialog-contents:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+body:not(.ie10) .marketingBonusGoldPopup .dialog-container .dialog-contents:after {
+  border-style: solid;
+  border-width: 67px 50px 10px 50px;
+  border-image: url('../img_rtl/videoFeature/frame.png') 67 50 10 50 fill repeat;
+}
+.marketingBonusGoldPopup .dialog-container .dialog-contents form {
+  position: relative;
+  z-index: 2;
+}
+.marketingBonusGoldPopup .dialog-container .dialog-contents .content {
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #f4efe4;
+  margin-top: 50px;
+  padding: 35px 10px 10px;
+}
+.marketingBonusGoldPopup .dialog-container .dialog-contents .content h1.titleInHeader {
+  height: 26px;
+  position: absolute;
+  top: 32px;
+  right: 35px;
+  left: 180px;
+  margin: 0;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  direction: initial;
+  line-height: 26px;
+  font-size: 24px;
+  font-family: Tahoma, Helvetica, Arial, Verdana, sans-serif;
+  color: #F2F2F2;
+  text-shadow: 1px 0 0 #B68363, 1px 1px 0 #B68363, 0 1px 0 #B68363, -1px 1px 0 #5E463A, -1px 0 0 #5E463A, -1px -1px 0 #5E463A, 0 -1px 0 #5E463A, 1px -1px 0 #5E463A;
+}
+.rtl .marketingBonusGoldPopup .dialog-container .dialog-contents .content h1.titleInHeader {
+  font-size: 25px;
+}
+.fa-IR .marketingBonusGoldPopup .dialog-container .dialog-contents .content h1.titleInHeader {
+  font-family: IRANSans, Arial, Helvetica, Verdana, sans-serif;
+}
+.marketingBonusGoldPopup .dialog-container .dialog-contents .iconButton {
+  float: left;
+  z-index: 2;
+  width: 31px;
+  height: 31px;
+  padding: 0;
+  position: absolute;
+  top: 26px;
+  background-image: linear-gradient(to bottom, rgba(191, 146, 88, 0.68) 5%, rgba(255, 246, 202, 0.68) 13%, rgba(255, 202, 134, 0.68) 32%, rgba(162, 115, 73, 0.68) 48%, rgba(90, 52, 24, 0.68) 72%, rgba(173, 127, 79, 0.68) 93%, rgba(255, 202, 134, 0.68) 100%);
+  background-color: #a58b6d;
+  border-radius: 1px;
+  border: 1px solid #34353c;
+}
+.marketingBonusGoldPopup .dialog-container .dialog-contents .iconButton:before, .marketingBonusGoldPopup .dialog-container .dialog-contents .iconButton:after {
+  content: "";
+  background-repeat: no-repeat;
+}
+.marketingBonusGoldPopup .dialog-container .dialog-contents .iconButton:before {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  bottom: 3px;
+  right: 3px;
+  z-index: 2;
+  background-color: #496817;
+  border: 2px solid #5b950f;
+  border-top-color: #c9d7b7;
+  border-bottom-color: #63a90b;
+  box-shadow: 0 0 0 1px #34353c;
+  transition: background-color 150ms;
+}
+.marketingBonusGoldPopup .dialog-container .dialog-contents .iconButton:after {
+  position: absolute;
+  z-index: 2;
+}
+.marketingBonusGoldPopup .dialog-container .dialog-contents .iconButton.cancel {
+  left: 40px;
+}
+.marketingBonusGoldPopup .dialog-container .dialog-contents .iconButton.cancel:after {
+  background-image: url('../img_rtl/videoFeature/close_small.png');
+  width: 17px;
+  height: 17px;
+  top: 7px;
+  right: 7px;
+}
+.marketingBonusGoldPopup .dialog-container .dialog-contents .iconButton.info {
+  left: 85px;
+}
+.marketingBonusGoldPopup .dialog-container .dialog-contents .iconButton.info:after {
+  background-image: url('../img_rtl/videoFeature/info_small.png');
+  width: 7px;
+  height: 18px;
+  top: 6px;
+  right: 12px;
+}
+.marketingBonusGoldPopup .dialog-container .dialog-contents .iconButton:hover {
+  background-image: linear-gradient(to bottom, rgba(191, 146, 88, 0.68) 5%, rgba(255, 246, 202, 0.68) 13%, rgba(255, 202, 134, 0.68) 32%, rgba(162, 115, 73, 0.68) 48%, rgba(90, 52, 24, 0.68) 72%, rgba(173, 127, 79, 0.68) 93%, rgba(255, 202, 134, 0.68) 100%);
+  background-color: #d7cabb;
+  background-position: inherit;
+}
+.marketingBonusGoldPopup .dialog-container .dialog-contents .iconButton:hover:before {
+  background-color: #699128;
+  border-color: #cfdeb9 #6faf19 #71bb13;
+}
+.marketingBonusGoldPopup .dialog-container .dialog-contents .iconButton:active:before {
+  border-color: #d6e8bd #8fd82a #88d81f;
+}
+.marketingBonusGoldPopup .dialog-container .dialog-contents button {
+  background-color: #496817;
+  border: 5px solid #5b950f;
+  border-top-color: #c9d7b7;
+  border-bottom-color: #63a90b;
+  border-radius: 1px;
+  padding: 14px 40px;
+  box-shadow: 0 0 0 1px #34353c;
+  height: auto;
+  font-size: 16px;
+  transition: background-color 150ms;
+}
+.rtl .marketingBonusGoldPopup .dialog-container .dialog-contents button {
+  font-size: 17px;
+}
+.marketingBonusGoldPopup .dialog-container .dialog-contents button:hover {
+  background-color: #699128;
+  border-color: #cfdeb9 #6faf19 #71bb13;
+}
+.marketingBonusGoldPopup .dialog-container .dialog-contents button:active {
+  border-color: #d6e8bd #8fd82a #88d81f;
+}
+.marketingBonusGoldPopup #marketingBonusGoldPopup .bonusDisplayBox {
+  width: 547px;
+  background-color: #e1d2b2;
+  position: relative;
+  margin: 10px auto;
+  border: solid 1px #998975;
+  z-index: 1;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 100px;
+  top: 50px;
+  opacity: 0;
+  transform: scale(0.8);
+  animation: reveal 1000ms 500ms forwards;
+}
+.rtl .marketingBonusGoldPopup #marketingBonusGoldPopup .bonusDisplayBox {
+  font-size: 21px;
+}
+.marketingBonusGoldPopup #marketingBonusGoldPopup .bonusDisplayBox:before, .marketingBonusGoldPopup #marketingBonusGoldPopup .bonusDisplayBox:after {
+  content: "";
+  display: block;
+  position: absolute;
+}
+.marketingBonusGoldPopup #marketingBonusGoldPopup .bonusDisplayBox:before {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  bottom: 3px;
+  right: 3px;
+  background-image: url('../img_rtl/application/views/marketingBonusGoldPopup/illustration.png');
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+.marketingBonusGoldPopup #marketingBonusGoldPopup .bonusDisplayBox:after {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  bottom: 2px;
+  right: 2px;
+  border: solid 1px #998975;
+  background-color: #e1d2b2;
+  z-index: -1;
+}
+.marketingBonusGoldPopup #marketingBonusGoldPopup .bonusDisplayBox p {
+  opacity: 0;
+}
+.marketingBonusGoldPopup #marketingBonusGoldPopup .bonusDisplayBox p.intro {
+  animation: reveal 1000ms 1500ms forwards;
+}
+.marketingBonusGoldPopup #marketingBonusGoldPopup .bonusDisplayBox p.goldAmount {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  animation: reveal 500ms 2500ms forwards, zoom 1000ms 3000ms forwards;
+}
+.marketingBonusGoldPopup #marketingBonusGoldPopup .bonusDisplayBox p.outro {
+  animation: reveal 1000ms 4500ms forwards;
+}
+.marketingBonusGoldPopup #marketingBonusGoldPopup .bonusDisplayBox .centeredContainer {
+  width: 330px;
+  margin: 0 auto;
+  font-size: 18px;
+}
+.rtl .marketingBonusGoldPopup #marketingBonusGoldPopup .bonusDisplayBox .centeredContainer {
+  font-size: 19px;
+}
+.marketingBonusGoldPopup #marketingBonusGoldPopup button#closeButton {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  opacity: 0;
+  top: 25px;
+  animation: reveal 1000ms 5500ms forwards;
+}
+@keyframes reveal {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    top: 0;
+    transform: scale(1);
+  }
+}
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.25);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

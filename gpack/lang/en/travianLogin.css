@@ -1,0 +1,789 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+input[type="search"]::-webkit-search-decoration {
+  display: none;
+}
+
+input:invalid,
+button:invalid,
+a.button:invalid,
+select:invalid,
+textarea:invalid {
+  box-shadow: none;
+}
+input:focus,
+button:focus,
+a.button:focus,
+select:focus,
+textarea:focus {
+  box-shadow: #0066FF 0 0 5px 0;
+  z-index: 1;
+}
+
+input[type="file"]:focus, input[type="file"]:active {
+  box-shadow: none;
+}
+
+label {
+  white-space: nowrap;
+}
+.sidebar .sidebarBox div.sidebarBoxInnerBox div.content ul li {
+  border-bottom: 1px solid #d7c095;
+  padding-left: 20px;
+  position: relative;
+  transition-duration: 250ms;
+}
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+.showCosts {
+  margin: 0 10px;
+  padding: 10px 0;
+}
+
+.resourceWrapper {
+  display: -ms-inline-grid;
+  display: inline-grid;
+  -ms-grid-columns: auto auto auto auto auto;
+  grid-template-columns: auto auto auto auto auto;
+}
+.resourceWrapper .resources,
+.resourceWrapper .resource {
+  grid-column-start: auto;
+  margin-right: 25px;
+  -ms-grid-row-align: center;
+  align-self: center;
+  display: -ms-inline-grid;
+  display: inline-grid;
+  -ms-grid-columns: auto auto;
+  grid-template-columns: auto auto;
+}
+.resourceWrapper .resources:nth-child(1),
+.resourceWrapper .resource:nth-child(1) {
+  -ms-grid-column: 1;
+}
+.resourceWrapper .resources:nth-child(2),
+.resourceWrapper .resource:nth-child(2) {
+  -ms-grid-column: 2;
+}
+.resourceWrapper .resources:nth-child(3),
+.resourceWrapper .resource:nth-child(3) {
+  -ms-grid-column: 3;
+}
+.resourceWrapper .resources:nth-child(4),
+.resourceWrapper .resource:nth-child(4) {
+  -ms-grid-column: 4;
+}
+.resourceWrapper .resources:nth-child(5),
+.resourceWrapper .resource:nth-child(5) {
+  -ms-grid-column: 5;
+}
+.resourceWrapper .resources:first-child,
+.resourceWrapper .resource:first-child {
+  margin-left: 0;
+}
+.resourceWrapper .resources:last-child,
+.resourceWrapper .resource:last-child {
+  margin-right: 0;
+}
+.resourceWrapper .resources i, .resourceWrapper .resources a,
+.resourceWrapper .resource i,
+.resourceWrapper .resource a {
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  margin-right: 5px;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+.resourceWrapper .resources span,
+.resourceWrapper .resource span {
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  -ms-grid-row-align: center;
+  align-self: center;
+  display: inline-block;
+}
+.trident .resourceWrapper button {
+  width: 151px;
+}
+
+.showCosts .clocks {
+  display: -ms-inline-grid;
+  display: inline-grid;
+  -ms-grid-columns: auto auto;
+  grid-template-columns: auto auto;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.showCosts .clocks i {
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  margin-right: 5px;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+.showCosts .clocks span {
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  -ms-grid-row-align: center;
+  align-self: center;
+  display: inline-block;
+}
+
+.showCosts .clocks img,
+.showCosts .remainingViews img,
+.showBuildCosts .clocks img,
+.showBuildCosts .remainingViews img,
+.upgradeButtonsContainer .clocks img,
+.upgradeButtonsContainer .remainingViews img {
+  margin-top: 2px;
+  margin-right: 6px;
+}
+i.clock_medium {
+  background-image: url('../img_ltr/general/units/clock_medium.png');
+  width: 22px;
+  height: 22px;
+}div#build.gid0 > .buildingWrapper h2 {
+  margin-top: 0;
+}
+div#build.gid0 h4.round {
+  margin-bottom: 20px;
+}
+div#build.gid0 img.build_logo {
+  margin-bottom: 0;
+}
+div#build.gid0 .contractWrapper {
+  width: 370px;
+}
+div#build.gid0 .contractWrapper .contractText {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+div#build.gid0 .contractWrapper .resourceWrapper {
+  display: -ms-grid;
+  display: grid;
+  margin-top: 5px;
+}
+div#build.gid0 .contractWrapper .lineWrapper {
+  position: relative;
+}
+div#build.gid0 .contractWrapper .lineWrapper .duration {
+  margin-top: 10px;
+  display: -ms-inline-grid;
+  display: inline-grid;
+  -ms-grid-columns: auto auto;
+  grid-template-columns: auto auto;
+}
+div#build.gid0 .contractWrapper .lineWrapper .duration i {
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  margin-right: 5px;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+div#build.gid0 .contractWrapper .lineWrapper .duration span {
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  -ms-grid-row-align: center;
+  align-self: center;
+  display: inline-block;
+}
+div#build.gid0 .contractWrapper .lineWrapper .exchange {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+div#build.gid0 .contractWrapper .errorMessage,
+div#build.gid0 .contractWrapper .statusMessage {
+  margin-top: 10px;
+}
+div#build.gid0 .contractWrapper .contractLink {
+  margin-top: 10px;
+}
+div#build.gid0 .contractWrapper .buildingCondition {
+  white-space: nowrap;
+}
+div#build.gid13 .finishNow, div#build.gid22 .finishNow {
+  margin-top: 5px;
+}
+div#build.gid13 .researches, div#build.gid22 .researches {
+  border: 1px solid #E7E7E7;
+  padding: 15px 0;
+  margin-bottom: 20px;
+}
+div#build.gid13 .noResearchPossible, div#build.gid22 .noResearchPossible {
+  padding: 5px 15px;
+}
+div#build.gid13 .research, div#build.gid22 .research {
+  padding: 0 8px;
+}
+div#build.gid13 .information, div#build.gid22 .information {
+  float: right;
+  text-align: left;
+  width: 375px;
+}
+div#build.gid13 .information .title img.unit, div#build.gid22 .information .title img.unit {
+  margin: 0 5px;
+  position: relative;
+  top: 3px;
+}
+div#build.gid13 .information .resourceWrapper, div#build.gid22 .information .resourceWrapper {
+  margin-top: 10px;
+}
+div#build.gid13 .information .cta, div#build.gid22 .information .cta {
+  margin-top: 10px;
+}
+div#build.gid13 .information .cta:after, div#build.gid22 .information .cta:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+div#build.gid13 .information .cta .duration, div#build.gid22 .information .cta .duration {
+  display: -ms-inline-grid;
+  display: inline-grid;
+  -ms-grid-columns: auto auto;
+  grid-template-columns: auto auto;
+}
+div#build.gid13 .information .cta .duration i, div#build.gid22 .information .cta .duration i {
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  margin-right: 5px;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+div#build.gid13 .information .cta .duration span, div#build.gid22 .information .cta .duration span {
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  -ms-grid-row-align: center;
+  align-self: center;
+  display: inline-block;
+}
+div#build.gid13 .information .cta button, div#build.gid22 .information .cta button {
+  float: right;
+}
+div#build.gid13 .information .errorMessage, div#build.gid22 .information .errorMessage {
+  color: #777777;
+  margin-top: 10px;
+}
+div#build.gid13 #researchFuture .duration, div#build.gid22 #researchFuture .duration {
+  display: -ms-inline-grid;
+  display: inline-grid;
+  -ms-grid-columns: auto auto;
+  grid-template-columns: auto auto;
+  margin-top: 10px;
+}
+div#build.gid13 #researchFuture .duration i, div#build.gid22 #researchFuture .duration i {
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  margin-right: 5px;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+div#build.gid13 #researchFuture .duration span, div#build.gid22 #researchFuture .duration span {
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  -ms-grid-row-align: center;
+  align-self: center;
+  display: inline-block;
+}
+div#build.gid13 #researchFuture .requirements, div#build.gid22 #researchFuture .requirements {
+  margin-top: 10px;
+}
+div#build.gid22 .switch {
+  text-align: right;
+  margin-bottom: 20px;
+}
+div#build.gid22 #researchFuture {
+  margin-bottom: 20px;
+}
+div#build.gid22 #researchFuture td.desc {
+  vertical-align: top;
+  white-space: nowrap;
+  width: 40%;
+}
+div#build.gid22 #researchFuture td.cond {
+  line-height: 19px;
+}
+div#build.gid24 .researches, div#build.gid35 .researches {
+  border: 1px solid #C0C0C0;
+  margin-bottom: 20px;
+}
+div#build.gid24 .researches .research, div#build.gid35 .researches .research {
+  padding: 10px;
+}
+div#build.gid24 .researches .research .resourceWrapper, div#build.gid35 .researches .research .resourceWrapper {
+  margin-top: 10px;
+}
+div#build.gid24 .researches .research .cta, div#build.gid35 .researches .research .cta {
+  margin-top: 10px;
+}
+div#build.gid24 .researches .research .cta:after, div#build.gid35 .researches .research .cta:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+div#build.gid24 .researches .research .cta .duration, div#build.gid35 .researches .research .cta .duration {
+  display: -ms-inline-grid;
+  display: inline-grid;
+  -ms-grid-columns: auto auto;
+  grid-template-columns: auto auto;
+}
+div#build.gid24 .researches .research .cta .duration i, div#build.gid35 .researches .research .cta .duration i {
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  margin-right: 5px;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+div#build.gid24 .researches .research .cta .duration span, div#build.gid35 .researches .research .cta .duration span {
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  -ms-grid-row-align: center;
+  align-self: center;
+  display: inline-block;
+}
+div#build.gid24 .researches .research .cta button, div#build.gid35 .researches .research .cta button {
+  float: right;
+}
+div#build.gid24 .researches .research .errorMessage, div#build.gid35 .researches .research .errorMessage {
+  color: #777777;
+  margin-top: 10px;
+}
+div#build.gid24 hr, div#build.gid35 hr {
+  margin: 0;
+}
+div#build.gid24 .bigImage,
+div#build.gid24 .celebration,
+div#build.gid24 .celebrationSmall,
+div#build.gid24 .celebrationBig, div#build.gid35 .bigImage,
+div#build.gid35 .celebration,
+div#build.gid35 .celebrationSmall,
+div#build.gid35 .celebrationBig {
+  display: none;
+}
+div#build.gid24 .information .points, div#build.gid35 .information .points {
+  font-size: 11px;
+}
+.rtl div#build.gid24 .information .points, .rtl div#build.gid35 .information .points {
+  font-size: 12px;
+}
+div#build.gid15 h2 {
+  margin-top: 25px;
+}
+div#build.gid15 select.dropdown {
+  width: 200px;
+}
+div#build.gid15 #demolish {
+  width: auto;
+}
+div#build.gid15 #demolish .level {
+  font-size: 12px;
+}
+.rtl div#build.gid15 #demolish .level {
+  font-size: 13px;
+}
+div#build.gid15 #demolish td.abort {
+  padding-left: 0;
+  padding-right: 0;
+}
+div#build.gid15 .demolishNow {
+  display: inline;
+}
+div#build.gid15 .times {
+  font-size: 12px;
+  color: #777777;
+}
+.rtl div#build.gid15 .times {
+  font-size: 13px;
+}
+div#build.gid17 {
+  /* send ressources */
+  /* buy ressources */
+  /* sell ressources */
+  /* own offers */
+  /* trading routes */
+}
+div#build.gid17 .traders {
+  width: 100%;
+  text-align: left;
+  margin-bottom: 15px;
+}
+div#build.gid17 .traders thead td {
+  padding-left: 9px;
+  padding-right: 9px;
+  text-align: left;
+}
+div#build.gid17 .traders td.dorf {
+  font-weight: bold;
+}
+div#build.gid17 .traders th {
+  width: 20%;
+}
+div#build.gid17 .traders div.in {
+  text-align: left;
+  float: left;
+}
+div#build.gid17 .traders div.at {
+  text-align: right;
+  float: right;
+}
+div#build.gid17 .traders div.repeat {
+  text-align: right;
+  width: 20px;
+  float: right;
+}
+div#build.gid17 .traders tr.res img {
+  margin-left: 10px;
+}
+div#build.gid17 .traders tr.res img.r1 {
+  margin-left: 0;
+}
+div#build.gid17 .traderCount {
+  float: left;
+  margin-bottom: 14px;
+}
+div#build.gid17 .traderCount .boxes-contents {
+  padding: 5px 10px;
+}
+div#build.gid17 div.error,
+div#build.gid17 p.error {
+  font-weight: bold;
+}
+div#build.gid17 p.note {
+  font-weight: bold;
+  color: #228B22;
+}
+div#build.gid17 p.success {
+  color: #FF6F0F;
+  font-size: 11px;
+}
+.rtl div#build.gid17 p.success {
+  font-size: 12px;
+}
+div#build.gid17 table#sell_overview img.ratio,
+div#build.gid17 table#range img.ratio {
+  width: 16px;
+  height: 16px;
+  background-image: url('../../lang/img_ltr/market/ratio.gif');
+}
+div#build.gid17 table#sell_overview td.ratio,
+div#build.gid17 table#range td.ratio {
+  padding: 1px;
+  text-align: center;
+  font-size: 11px;
+  width: 1%;
+}
+.rtl div#build.gid17 table#sell_overview td.ratio, .rtl
+div#build.gid17 table#range td.ratio {
+  font-size: 12px;
+}
+div#build.gid17 table#sell_overview td.ratio div.boxes,
+div#build.gid17 table#range td.ratio div.boxes {
+  width: 23px;
+}
+div#build.gid17 table#sell_overview td.ratio div.boxes-contents,
+div#build.gid17 table#range td.ratio div.boxes-contents {
+  padding: 3px;
+  color: white;
+}
+div#build.gid17 table#range td.val {
+  width: 15%;
+  text-align: left;
+  white-space: nowrap;
+}
+div#build.gid17 table#range td.dur {
+  width: 13%;
+  white-space: nowrap;
+  text-align: center;
+}
+div#build.gid17 table#range td.act {
+  width: 10%;
+  padding: 0 5px;
+  white-space: nowrap;
+  text-align: center;
+}
+div#build.gid17 table#range td.pla i {
+  vertical-align: middle;
+}
+div#build.gid17 p.npcOutput {
+  line-height: 22px;
+}
+div#build.gid17 p.info {
+  font-size: 11px;
+  margin-top: 5px;
+}
+.rtl div#build.gid17 p.info {
+  font-size: 12px;
+}
+div#build.gid17 p.info img {
+  margin-right: 2px;
+}
+div#build.gid17 table.send_res {
+  width: 50%;
+  background-color: #FFFFFF;
+  float: left;
+}
+div#build.gid17 table.send_res td {
+  padding: 6px 3px;
+}
+div#build.gid17 table.send_res td.ico {
+  width: 5%;
+}
+div#build.gid17 table.send_res td.val {
+  width: 30%;
+  text-align: right;
+}
+div#build.gid17 table.send_res td.val input.text {
+  width: 90%;
+}
+div#build.gid17 table.send_res td.separator {
+  width: 1%;
+}
+div#build.gid17 table.send_res td.max {
+  width: 25%;
+  white-space: nowrap;
+}
+div#build.gid17 table.send_res td.max.ratioltr {
+  text-align: left;
+}
+div#build.gid17 table.send_res td.max.ratiortl {
+  text-align: right;
+}
+div#build.gid17 table#send_validate input.disabled {
+  border-color: #AAAAAA;
+  width: 50px;
+  margin-left: 5px;
+}
+div#build.gid17 table#send_validate td.max {
+  font-weight: bold;
+  color: #777777;
+}
+div#build.gid17 table.res_target {
+  width: 100%;
+  background-color: #FFFFFF;
+}
+div#build.gid17 table.res_target th,
+div#build.gid17 table.res_target td {
+  vertical-align: top;
+}
+div#build.gid17 table.res_target th {
+  width: 20%;
+}
+div#build.gid17 table#target_validate th,
+div#build.gid17 table#target_validate td {
+  padding-top: 4px;
+}
+div#build.gid17 table#target_validate td.vil {
+  max-width: 180px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+div#build.gid17 div.run_dropdown {
+  float: left;
+  margin-top: 10px;
+  width: 40%;
+}
+div#build.gid17 .destination {
+  float: left;
+  width: 265px;
+  line-height: 30px;
+  margin: 6px 0 0 10px;
+}
+div#build.gid17 .destination .boxes-contents {
+  padding: 5px 17px;
+  white-space: nowrap;
+  width: auto;
+}
+div#build.gid17 .destination span {
+  font-weight: bold;
+}
+div#build.gid17 .destination table.compact {
+  margin: 6px 9px 3px 0;
+}
+div#build.gid17 .destination table.compact td.compactInput {
+  padding: 0 6px;
+}
+div#build.gid17 .destination table.compact td.compactInput.y {
+  padding-right: 0;
+  width: 40px;
+}
+div#build.gid17 .destination input.village {
+  width: 100%;
+}
+div#build.gid17 .destination span.or {
+  font-weight: normal;
+  margin-right: 5px;
+  line-height: 22px;
+}
+div#build.gid17 .destination span.or,
+div#build.gid17 .destination div.coordinatesInput {
+  float: left;
+}
+div#build.gid17 .runSeveralTimes {
+  float: left;
+  width: 240px;
+  margin-top: 10px;
+}
+div#build.gid17 button.confirm {
+  margin-top: 10px;
+}
+div#build.gid17 div.search_select,
+div#build.gid17 div.bid_select {
+  width: 96px;
+  float: left;
+}
+div#build.gid17 div.ratio_select {
+  width: 24px;
+  margin-left: 10px;
+  margin-right: 10px;
+  float: left;
+}
+div#build.gid17 div.boxes.bid_select, div#build.gid17 div.boxes.search_select {
+  padding: 4px 6px;
+}
+div#build.gid17 div.boxes.bid_select thead td, div#build.gid17 div.boxes.search_select thead td {
+  padding: 5px 2px 3px;
+}
+div#build.gid17 div.boxes.ratio_select {
+  padding: 4px 6px;
+}
+div#build.gid17 table.buy_select {
+  border-collapse: collapse;
+}
+div#build.gid17 table.buy_select td {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+div#build.gid17 table.buy_select td.hl {
+  background-color: #ffe4b5;
+}
+.webkit div#build.gid17 table#search_select button.iconFilter img,
+.webkit div#build.gid17 table#bid_select button.iconFilter img {
+  left: 0;
+}
+div#build.gid17 img.marketPercentage {
+  background-image: url('../../lang/img_ltr/market/market1x.gif');
+  width: 15px;
+  height: 9px;
+}
+div#build.gid17 img.marketPercentage1_1 {
+  background-position: 0 0;
+}
+div#build.gid17 img.marketPercentage1_x {
+  background-position: 0 -19px;
+}
+.gecko div#build.gid17 img.marketPercentage {
+  left: -1px;
+}
+.gecko div#build.gid17 .iconFilterActive img.marketPercentage {
+  left: 0;
+}
+
+.webkit div#build.gid17 img.marketPercentage {
+  left: -1px;
+}
+div#build.gid17 table#summary td.val {
+  width: 16%;
+  white-space: nowrap;
+}
+div#build.gid17 table#sell {
+  background-color: #FFFFFF;
+}
+div#build.gid17 table#sell th,
+div#build.gid17 table#sell td {
+  padding: 2px;
+}
+div#build.gid17 table#sell th {
+  width: 10%;
+  font-weight: bold;
+}
+div#build.gid17 table#sell input.check {
+  position: relative;
+  top: 1px;
+}
+div#build.gid17 table#sell td.val {
+  width: 13%;
+}
+div#build.gid17 table#sell td.val input.text {
+  width: 50px;
+}
+div#build.gid17 table#sell td.res {
+  width: 20%;
+}
+div#build.gid17 table#sell td.res input.text {
+  width: 75px;
+}
+div#build.gid17 table#sell td.tra input.text {
+  width: 20px;
+}
+div#build.gid17 table#sell_overview thead td {
+  text-align: center;
+  font-weight: bold;
+}
+div#build.gid17 table#sell_overview th,
+div#build.gid17 table#sell_overview td {
+  text-align: center;
+}
+div#build.gid17 table#sell_overview td.dur {
+  white-space: nowrap;
+}
+div#build.gid17 table#sell_overview td.abo {
+  width: 5%;
+}
+div#build.gid17 table#sell_overview td.val {
+  width: 40%;
+  text-align: left;
+}
+div#build.gid17 p#submitButton {
+  margin-top: 5px;
+  display: none;
+  text-align: right;
+}
+div#build.gid17 span.corr {
+  color: #FF4000;
+}
+div#build.gid17 span.npc_price {
+  margin-left: 10px;
+}
+div#build.gid17 p#submitText {
+  margin-top: 5px;
+  display: block;
+  text-align: right;
+}
+div#build.gid17 table#trading_routes .showCosts .resources {
+  margin-bottom: 0;
+}
+div#build.gid17 table#trading_routes th {
+  font-size: 12px;
+}
+.rtl div#build.gid17 table#trading_routes th {
+  font-size: 13px;
+}

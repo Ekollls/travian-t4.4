@@ -1,0 +1,29 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+.trainExpansionUnits .notResearched {
+  margin-top: 10px;
+  color: #D40000;
+}
+.trainExpansionUnits .notResearched .noAcademy {
+  font-weight: bold;
+  color: #777777;
+  cursor: not-allowed;
+}
+.trainExpansionUnits .noExpansionSlot {
+  margin-top: 10px;
+  color: #D40000;
+}
+.trainExpansionUnits .notResearched ~ .noExpansionSlot {
+  margin-top: 0;
+}

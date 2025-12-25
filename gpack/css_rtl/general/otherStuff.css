@@ -1,0 +1,33 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+/* switch on/off */
+img.plus {
+  width: 16px;
+  height: 16px;
+  background-image: url('../../img_rtl/a/plus.gif');
+}
+
+/* ressources */
+span.dur {
+  white-space: nowrap;
+}
+
+/* span tag with grey color and tiny font */
+span.greyInfo {
+  font-size: 11px;
+  color: #777777;
+}
+.rtl span.greyInfo {
+  font-size: 12px;
+}

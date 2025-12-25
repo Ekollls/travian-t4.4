@@ -1,0 +1,106 @@
+/********** IMAGES ********* */
+/********** GRID ********* */
+/********** INLINE ICONS ********* */
+/********** FONT ********* */
+/********** DIRECTIONS ********* */
+/********** TEXT ********* */
+/*** MEASUREMENT ** */
+/*** COLOR CODES ** */
+/*** COLOR USAGE ** */
+/*** DEFAULT STYLES ** */
+/*** TRIBES ** */
+/*** BUILDINGS ** */
+/*** RESOURCES ** */
+#expansionTab h4 {
+  line-height: 1.5rem;
+  padding: 4px 15px;
+  background-color: #E0EBDF;
+  color: #333333;
+  margin-bottom: 12px;
+}
+
+#expansionTab h4:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+#expansionTab h4 .prerequisites {
+  float: left;
+}
+#expansionTab h4 .prerequisites .unlockLevel {
+  font-weight: normal;
+  color: #D40000;
+}
+#expansionTab .freeExpansionSlot,
+#expansionTab .usedExpansionSlot,
+#expansionTab .nextExpansionSlot {
+  border: 1px solid #C0C0C0;
+}
+#expansionTab .freeExpansionSlot {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+#expansionTab .freeExpansionSlot .trainInfo {
+  margin-bottom: 20px;
+}
+#expansionTab .freeExpansionSlot .unitSection {
+  margin: 0 35px 20px;
+  border: 1px solid #E7E7E7;
+  transition-duration: 150ms;
+}
+#expansionTab .freeExpansionSlot .unitSection:not(.highlight) {
+  filter: saturate(0);
+  opacity: 0.5;
+}
+#expansionTab .freeExpansionSlot .description {
+  display: none;
+  text-align: right;
+}
+#expansionTab .freeExpansionSlot .description ul {
+  margin: 10px 0 0;
+  padding-right: 25px;
+}
+#expansionTab .usedExpansionSlot {
+  margin-bottom: 20px;
+  padding: 10px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 220px 50px 1fr;
+  grid-template-columns: 220px 50px 1fr;
+}
+#expansionTab .usedExpansionSlot .resourceDistribution {
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+}
+#expansionTab .usedExpansionSlot .resourceDistribution .background {
+  background-image: url('../../../img_rtl/application/views/buildings/residence/resourceDistribution.png');
+  width: 220px;
+  height: 123px;
+}
+#expansionTab .usedExpansionSlot .resourceDistribution .resourceWrapper {
+  width: 100%;
+  background-color: #E0EBDF;
+  padding: 10px;
+  box-sizing: border-box;
+}
+#expansionTab .usedExpansionSlot table {
+  -ms-grid-column: 3;
+  grid-column-start: 3;
+}
+#expansionTab .usedExpansionSlot table th {
+  width: 40%;
+}
+#expansionTab .usedExpansionSlot table td {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  direction: ltr;
+  max-width: 1px;
+}
+#expansionTab .nextExpansionSlot {
+  padding: 15px;
+}
